@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="main-header" id="mainHeader">
+            <article class="show-coordinates" id="showCoordinates"></article>
+        <!-------button to get geo location to get weather --------------------->
+            <button class="geo-location-btn" id="geoLocationBtn" type="submit">geo location btn</button>
+            <br>
+            <input type="text" class="input-place" id="inputPlace" placeholder="name">
+            <button class="input-btn" id="inputBtn" type="submit">type location</button>
+        </header>
+
+        <main class="main" id="main">
+            <section class="one-day-weather" id="oneDayWeather">
+                <!------------------show 1 day weather here--------------->
+            </section>
+
+            <section class="five-days-weather" id="fiveDaysWeather">
+                <!-----------------show 5 days weahter--------------------->
+            </section>
+        </main>
+
+        <footer class="main-footer" id="mainFooter">
+            <p class="footer-para">this is weather application</p>
+        </footer>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
