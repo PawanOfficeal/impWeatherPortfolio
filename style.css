@@ -9,7 +9,7 @@ body{
 .container{
     position: relative;
     width: 90%;
-    height: 60rem;
+    height: 80rem;
     margin-left: 5%;
     border: .5px solid white;
     border-radius: 4px;
@@ -19,13 +19,18 @@ body{
 .main-header{
       background-color: rgb(194, 209, 236);
       width: 100%;
-      height:10% ;
+      height:15% ;
 }
 .geo-location-btn{
-          width: 10%;
-          height: 1.2rem;
-          background-color: rgb(46, 10, 10);
+          width: 20%;
+          height: 1.6rem;
+          margin-left: 30%;
+          margin-top: 4%;
+          padding: 6px;
+          background-color: rgb(71, 30, 30);
           color: white;
+          font-size: .8rem;
+          word-spacing: 4px;
 }
 .geo-location-btn:hover{background-color: white;color:rgb(46, 10, 10);}
 .input-btn{
@@ -33,18 +38,44 @@ body{
     height: 1.2rem;
     background-color: rgb(46, 10, 10);
     color: white;
+    margin-left: 15%;
 }
 .input-place{
-
+     width: 15%;
+     height: 1.8rem;
+     background-color: aquamarine;
+     border-style: none;
+     outline: none;
+     margin-left: 20%;
 }
 .one-day-weather{
+    background-color: burlywood;
+    width: 100%;
+    height: 10rem;
+    color: blue;
+    font-weight: bolder;
+    font-style: italic;
 
 }
 .five-days-weather{
-
+  background-color: coral;
+  width: 100%;
+  height: 50rem;
+  margin-top: .5rem;
 }
 .main-footer{
     background-color: gray;
     width: 100%;
-    height: 4rem;
+    height: 10rem;
+    margin-top: .5rem;
+}
+.svgStyleClass{
+    width: 10%;
+    height: 100px;
+}
+
+.class0{
+    color:darkgreen;
+    font-size: 1.2rem;
+    font-weight: bolder;
 }
