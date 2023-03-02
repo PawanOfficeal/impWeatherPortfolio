@@ -24,29 +24,45 @@ body{
 .geo-location-btn{
           width: 20%;
           height: 1.6rem;
-          margin-left: 30%;
-          margin-top: 4%;
+          border-radius: 4px;
+          border-style: none;
+          margin-left: 40%;
+          margin-top: 2%;
           padding: 6px;
-          background-color: rgb(71, 30, 30);
+          background-color: rgb(59, 48, 109);
           color: white;
           font-size: .8rem;
+          cursor: pointer;
           word-spacing: 4px;
+          
 }
 .geo-location-btn:hover{background-color: white;color:rgb(46, 10, 10);}
 .input-btn{
+    position:absolute;
     width: 10%;
-    height: 1.2rem;
-    background-color: rgb(46, 10, 10);
+    height: 1.8rem;
+    border-radius: 4px;
+    border-style: none;
+    background-color:rgb(69, 226, 226);
     color: white;
-    margin-left: 15%;
+    margin-left: .5%;
+    margin-top: 2%;
+    cursor: pointer;
+    font-weight: bolder;
+    display: inline-block;
 }
+.input-btn:hover{background-color: aquamarine;color:rgb(37, 10, 10);}
 .input-place{
-     width: 15%;
+     width: 20%;
      height: 1.8rem;
      background-color: aquamarine;
      border-style: none;
      outline: none;
-     margin-left: 20%;
+     margin-left: 33%;
+     margin-top: 2%;
+     display: inline-block;
+     text-align: center;
+     font-weight: bold;
 }
 .one-day-weather{
     background-color: burlywood;
@@ -78,4 +94,12 @@ body{
     color:darkgreen;
     font-size: 1.2rem;
     font-weight: bolder;
+}
+.hideGeoLocationBtn{
+    opacity: 0;
+    display: none;
+}
+.hideInputPlace , .hideInputBtn{
+    opacity: 0;
+    display: none;
 }

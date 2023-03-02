@@ -17,6 +17,10 @@ let err4 = document.getElementById("err4")
 //  1 . get geo location after press 'geo-location-btn' and show weather based on geo location:
 /*=============================================================================================*/
 geoLocationBtn.addEventListener("click",getGeoLocation)
+geoLocationBtn.addEventListener("click",()=>{
+    inputPlace.classList.add("hideInputPlace")
+    inputBtn.classList.add("hideInputBtn")
+})
 
 function getGeoLocation(){
     if(navigator.geolocation){
@@ -120,6 +124,9 @@ function myCoordinates(latitude, longitude){
 /*=============================================*/
 
 inputBtn.addEventListener("click",inputBtnFunction)
+inputBtn.addEventListener("click", ()=>{
+    geoLocationBtn.classList.add("hideGeoLocationBtn")
+})
 
 function inputBtnFunction(){
     let cityName = document.getElementById("inputPlace").value
